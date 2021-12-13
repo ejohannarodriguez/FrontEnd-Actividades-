@@ -1,0 +1,111 @@
+@import url(Roboto-Thin.ttf);
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto, sans-serif;
+}
+
+header div.sup{
+    background-color: #1cd1b0;
+    padding: 10px;
+}
+
+header h1{
+    background-color: #00669f;
+    padding: 28px;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+ 
+section article{
+    position: relative;
+    width: 300px;
+    margin: 154px 0;
+    background-color: #f3f3f3;
+    border-radius: 16px 16px 0 0;
+    text-align:center;
+}
+
+article div.bg-HeaderCard{
+    height: 194px;
+    padding: 10px;
+    border-radius: 16px 16px 0 0;
+    text-align: left;
+}
+
+article div.bg-HeaderCard.Batman{
+    background: url(../img/bg-Batman.png);
+    background-size: cover;
+    position: absolute;
+    left: 90px;
+    top:125px;
+    width: 120px;
+    height: 118px;
+    border-radius: 50%;
+}
+
+article div.bg-HeaderCard.HarleyQuinn{
+    background: url(../img/Harley.png);
+    background-size: cover;
+    position:absolute;
+    left: 90px;
+    top:125px;
+    width: 120px;
+    height: 118px;
+    border-radius: 50%;
+}
+
+article div i{
+    position: absolute;
+    top: -110px;
+    left: -70px;
+    font-size: 24px;
+    color: red;
+
+}
+
+article h4{
+    margin-top: 75px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+article p{
+    font-size: 16px;
+    height: 190px;
+    text-align:left;
+    margin: 10px  10px;
+}
+
+article button{
+    position:relative;
+    bottom: 52px;
+    border: none;
+    color: white;
+    margin: 25px;
+    padding: 15px 20px;
+    background-color: #00669f;
+   
+}
+
+footer{
+ color: white;
+ background-color: #00669f;
+ font-size: 16px; 
+ height: 32px; 
+ margin-top: 151px;  
+}
+ 
+footer div.boxbiblioOne{
+    margin:16px 16px;
+}
+
+
+
+
