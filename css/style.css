@@ -1,0 +1,37 @@
+
+
+header{
+    text-transform: uppercase;
+     text-align: center;
+}
+
+header div{
+   
+    background-color: #e5e5e5 ;
+}
+
+h1,h3{
+    background-color: #c4c4c4 ;
+    text-transform: uppercase;
+}
+ul{
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    }
+
+main section ul li span{
+  font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #005677 ;
+    color:white;
+    font-size: px;
+}
+
+p{
+    background-color: rgba(52, 37, 189, 0.836);
+    text-align: center;
+}
